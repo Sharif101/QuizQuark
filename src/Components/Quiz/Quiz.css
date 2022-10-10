@@ -1,7 +1,7 @@
 
 .quiz-btn button
 {
-    background: #e7945d;
+    background: #eeaa45be;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
@@ -10,6 +10,32 @@
 .quiz-btn button svg
 {
     margin-left: 5px;
+}
+
+.quiz-card
+{
+    -webkit-border-radius: 50px;
+border-radius: 50px;
+background: #D1D8EC;
+-webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+}
+
+.quiz-img
+{
+    background-color:#D1D8EC;
+}
+
+.quiz-para
+{
+    color:  #ff6565e1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.quiz-title
+{
+    color: #4c89fa;
 }
 
 /* .quiz-btn button

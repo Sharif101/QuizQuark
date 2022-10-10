@@ -4,24 +4,32 @@ import CardGroup from "react-bootstrap/CardGroup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import "./Quiz.css";
+import { useNavigate } from "react-router-dom";
 
 const Quiz = ({ quiz }) => {
-  let { name, logo } = quiz;
+  let { name, logo, total, id } = quiz;
+
+  let navigate = useNavigate();
+  let handlenavigate = () => {
+    navigate(`/${id}`);
+  };
   return (
     <div>
       {/* <h3>{name}</h3> */}
 
       <CardGroup>
-        <Card className="p-2">
-          <Card.Img variant="top" src={logo} />
+        <Card className="p-2 quiz-card">
+          <Card.Img className="quiz-img" variant="top" src={logo} />
           <Card.Body>
             <div className="quiz-btn d-flex justify-content-between">
-              <Card.Title>{name}</Card.Title>
-              <button>
+              <Card.Title className="quiz-title">{name}</Card.Title>
+              <button onClick={handlenavigate}>
                 practice <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
               </button>
             </div>
-            <Card.Text></Card.Text>
+            <Card.Text>
+              <p className="quiz-para">Total Question here: {total}</p>
+            </Card.Text>
           </Card.Body>
         </Card>
       </CardGroup>

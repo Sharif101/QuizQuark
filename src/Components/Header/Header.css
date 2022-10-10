@@ -8,24 +8,25 @@
 }
 
 .nav .nav_title{
-    color: #4c89fa;
+    color: #ff6565e1;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 2px;
 }
 .nav .nav_title:hover
 {
-    color: #4c89fa;
+    color: #ff6565e1;
 }
 .nav a
 {
     text-decoration: none;
     margin: 0 10px;
-    font-size: 17px;
-    color:#4c89fa;
+    font-size: 16px;
+    color:#ff6565e1;
+    font-weight: 600;
 }
 
 .nav a:hover
 {
-    color: #4c89fa;
+    color: #ff6565e1;
 }
