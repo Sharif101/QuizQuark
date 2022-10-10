@@ -1,0 +1,31 @@
+
+.nav{
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    background: #fcfcff;
+    -webkit-box-shadow: 7px 7px 8px #d6d6d9, -7px -7px 8px #ffffff;
+    box-shadow: 7px 7px 8px #d6d6d9, -7px -7px 8px #ffffff;
+}
+
+.nav .nav_title{
+    color: #4c89fa;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.nav .nav_title:hover
+{
+    color: #4c89fa;
+}
+.nav a
+{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 17px;
+    color:#4c89fa;
+}
+
+.nav a:hover
+{
+    color: #4c89fa;
+}
