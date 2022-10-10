@@ -1,0 +1,17 @@
+.ques
+{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    -webkit-border-radius: 50px;
+    border-radius: 10px;
+    background: #fafafa;
+    -webkit-box-shadow: 12px 12px 6px #e6e6e6, -12px -12px 6px #ffffff;
+    box-shadow: 12px 12px 6px #e6e6e6, -12px -12px 6px #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.ques-title {
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #ee5b6cd0;
+}
