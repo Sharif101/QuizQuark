@@ -1,9 +1,15 @@
 // import React, { useState } from "react";
 import Options from "../Options/Options";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+
 import "./Question.css";
+import { useState } from "react";
 
 const Question = ({ ques }) => {
   let { question, options, correctAnswer } = ques;
+
+  let [showrslt, setShowrslt] = useState(false);
 
   // let [answer, setAnswer] = useState("");
 
@@ -19,10 +25,29 @@ const Question = ({ ques }) => {
   return (
     <div className="container">
       <div className="ques">
-        <h5 className="ques-title">{question}</h5>
+        <h5 className="ques-title">
+          {question}
+          {showrslt ? (
+            <FontAwesomeIcon
+              className="icon"
+              onClick={() => setShowrslt(!showrslt)}
+              icon={faEyeSlash}
+            ></FontAwesomeIcon>
+          ) : (
+            <FontAwesomeIcon
+              className="icon"
+              onClick={() => setShowrslt(!showrslt)}
+              icon={faEye}
+            ></FontAwesomeIcon>
+          )}
+        </h5>
+
         {options.map((option) => (
           <Options option={option} correctAnswer={correctAnswer}></Options>
         ))}
+        <p className="correctans">
+          Correct answer: {showrslt ? correctAnswer : ""}
+        </p>
         {/* <div className="options">
           <div className="inpt" onClick={() => checkrslt()}>
             <input

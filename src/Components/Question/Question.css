@@ -9,9 +9,29 @@
     padding: 20px;
     margin-top: 30px;
 }
-
+.ques h5 svg
+{
+    margin-left: 10px;
+}
 .ques-title {
     padding-bottom: 30px;
     font-size: 18px;
-    color: #ee5b6cd0;
+    color: #6e6ef7e5;
 }
+
+.correctans
+{
+    background: #efeff1;
+    border-radius: 10px;
+    box-shadow: inset 16.52px 16.52px 33px #E2E2E4, inset -16.52px -16.52px 33px #FCFCFE;
+    padding: 8px 17px;
+    margin-top: 20px;
+    color: #f1692a;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* .icon
+{
+    margin-right: auto;
+} */
