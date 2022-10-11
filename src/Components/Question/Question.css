@@ -15,14 +15,3 @@
     font-size: 18px;
     color: #ee5b6cd0;
 }
-
-.inpt
-{
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-}
-.inpt label
-{
-    margin-left: 10px;
-}

@@ -1,0 +1,21 @@
+
+.inpt
+{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.inpt label
+{
+    margin-left: 10px;
+}
+
+input[type="radio"]{
+    height: 1rem;
+    width: 1rem;
+}
+
+#check:checked
+{
+    accent-color: #ee5b6cd0;
+}
