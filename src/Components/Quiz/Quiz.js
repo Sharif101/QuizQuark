@@ -18,7 +18,7 @@ const Quiz = ({ quiz }) => {
       {/* <h3>{name}</h3> */}
 
       <CardGroup>
-        <Card className="p-2 quiz-card">
+        <Card className="p-2 quiz-card mb-5">
           <Card.Img className="quiz-img" variant="top" src={logo} />
           <Card.Body>
             <div className="quiz-btn d-flex justify-content-between">

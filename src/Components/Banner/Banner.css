@@ -1,0 +1,46 @@
+img
+{
+    width: 100%;
+}
+
+.text h2
+{
+    color: rgb(94, 94, 245);
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.text h5
+{
+    color: #C18D34;
+    font-size: 22px;
+    padding: 5px 0;
+}
+
+.text p
+{
+    font-size: 15px;
+    color: rgba(107, 107, 107, 0.822);
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:576px) {
+    .text h2{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .text h5
+    {
+        font-size: 15px;
+    }
+    .text p
+    {
+        font-size: 14px;
+    }
+}

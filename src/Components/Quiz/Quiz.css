@@ -31,6 +31,8 @@ box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
     color:  #ff6565e1;
     font-size: 15px;
     font-weight: 600;
+    text-align: center;
+    padding-top: 15px;
 }
 
 .quiz-title

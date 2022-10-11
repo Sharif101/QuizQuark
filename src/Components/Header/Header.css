@@ -8,25 +8,25 @@
 }
 
 .nav .nav_title{
-    color: #ff6565e1;
+    color: rgb(94, 94, 245);
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 2px;
 }
 .nav .nav_title:hover
 {
-    color: #ff6565e1;
+    color: rgb(94, 94, 245);
 }
 .nav a
 {
     text-decoration: none;
     margin: 0 10px;
     font-size: 16px;
-    color:#ff6565e1;
+    color: rgb(94, 94, 245);
     font-weight: 600;
 }
 
 .nav a:hover
 {
-    color: #ff6565e1;
+    color: rgb(94, 94, 245);
 }
