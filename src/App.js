@@ -2,6 +2,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Blog from "./Components/Blog/Blog";
+import Chats from "./Components/Chats/Chats";
 import Home from "./Components/Home.js/Home";
 import Questions from "./Components/Questions/Questions";
 import Main from "./layout/Main";
@@ -27,6 +28,13 @@ function App() {
             );
           },
           element: <Questions></Questions>,
+        },
+        {
+          path: "/chats",
+          loader: async () => {
+            return fetch("https://openapi.programming-hero.com/api/quiz");
+          },
+          element: <Chats></Chats>,
         },
         {
           path: "/blog",
