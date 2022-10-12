@@ -11,7 +11,7 @@ const Quiz = ({ quiz }) => {
 
   let navigate = useNavigate();
   let handlenavigate = () => {
-    navigate(`/${id}`);
+    navigate(`quiz/${id}`);
   };
   return (
     <div>
