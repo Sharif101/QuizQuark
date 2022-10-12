@@ -1,12 +1,11 @@
 .chat
 {
-    width: min(500px,90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
     /* margin: auto; */
 }
 @media screen and (max-width:576px) {
-    .chat
-    {
-        width: 200px;
-    }
 
 }

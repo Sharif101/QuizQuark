@@ -9,8 +9,8 @@ const Chats = () => {
   console.log(data);
   return (
     <div className="container">
-      <div className="chat">
-        <LineChart width={500} height={300} data={data}>
+      <div className="chat" style={{ width: "95%" }}>
+        <LineChart width={300} height={300} data={data}>
           <Line type="monotone" dataKey="total" stroke="#82ca9d"></Line>
           <XAxis dataKey="name"></XAxis>
           <YAxis></YAxis>
